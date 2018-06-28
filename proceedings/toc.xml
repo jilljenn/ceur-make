@@ -1,0 +1,50 @@
+<toc>
+    <paper>
+        <title>Optimizing Human Language Learning</title>
+        <pages from="1" to="1"/>
+        <authors>
+            <author>Masato Hagiwara</author>
+        </authors>
+    </paper>
+    <paper>
+        <title>Where's the Reward? A Review of Reinforcement Learning for Instructional Sequencing</title>
+        <pages from="2" to="2"/>
+        <authors>
+            <author>Shayan Doroudi</author>
+        </authors>
+    </paper>
+    <paper>
+        <title>Knowledge Tracing Machines: towards an unification of DKT, IRT &amp; PFA</title>
+        <pages from="3" to="3"/>
+        <authors>
+            <author>Jill-Jênn Vie</author>
+        </authors>
+    </paper>
+    <paper>
+        <title>SARLR: Self-adaptive Recommendation of Learning Resources</title>
+        <pages from="4" to="11"/>
+        <authors>
+            <author>Liping Liu</author>
+            <author>Wenjun Wu</author>
+            <author>Jiankun Huang</author>
+        </authors>
+    </paper>
+    <paper>
+        <title>An Adaptive Tutor to Promote Learners' Skills Acquisition during Procedural Learning</title>
+        <pages from="12" to="17"/>
+        <authors>
+            <author>Joanna Taoum</author>
+            <author>Anaïs Raison</author>
+            <author>Elisabetta Bevacqua</author>
+            <author>Ronan Querrec</author>
+        </authors>
+    </paper>
+    <paper>
+        <title>Optimizing Recommendation in Collaborative E-Learning by Exploring DBpedia and Association Rules</title>
+        <pages from="18" to="23"/>
+        <authors>
+            <author>Samia Beldjoudi</author>
+            <author>Hassina Seridi</author>
+        </authors>
+    </paper>
+</toc>

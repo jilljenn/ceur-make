@@ -1,0 +1,25 @@
+\documentclass{easychair}
+\titlerunning{WeASeL 2018}
+\authorrunning{Table of Contents}
+\usepackage{titletoc}
+\titlecontents{subsubsection}[2pt]{\addvspace{10pt}\bfseries\titlerule[0.5pt]\filright}{}{}{}[]
+\titlecontents{section}[0pt]{\addvspace{5pt}\filright}{}{}{\dotfill\contentspage}[]
+\titlecontents{subsection}[10pt]{\addvspace{1pt}\itshape\filright}{}{}{}[]
+\newcommand{\tocSection}[1]{\contentsline{subsubsection}{#1\\*\titlerule[0.5pt]\vspace{-9pt plus 2pt minus 2pt}}{}{}\nopagebreak[4]}
+\newcommand{\tocTitle}[2]{\contentsline{section}{#1}{#2}{}\nopagebreak[4]}
+\newcommand{\tocAuthors}[1]{\contentsline{subsection}{#1}{}{}}
+\begin{document}
+\section*{Table of Contents}
+  \tocTitle{Optimizing Human Language Learning}{1}
+  \tocAuthors{Masato Hagiwara}
+  \tocTitle{Where's the Reward? A Review of Reinforcement Learning for Instructional Sequencing}{2}
+  \tocAuthors{Shayan Doroudi}
+  \tocTitle{Knowledge Tracing Machines: towards an unification of DKT, IRT \& PFA}{3}
+  \tocAuthors{Jill-J\^enn Vie}
+  \tocTitle{SARLR: Self-adaptive Recommendation of Learning Resources}{4}
+  \tocAuthors{Liping Liu, Wenjun Wu and Jiankun Huang}
+  \tocTitle{An Adaptive Tutor to Promote Learners' Skills Acquisition during Procedural Learning}{12}
+  \tocAuthors{Joanna Taoum, Ana\"is Raison, Elisabetta Bevacqua and Ronan Querrec}
+  \tocTitle{Optimizing Recommendation in Collaborative E-Learning by Exploring DBpedia and Association Rules}{18}
+  \tocAuthors{Samia Beldjoudi and Hassina Seridi}
+\end{document}
