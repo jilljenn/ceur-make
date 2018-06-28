@@ -1,0 +1,45 @@
+% This is samplepaper.tex, a sample chapter demonstrating the
+% LLNCS macro package for Springer Computer Science proceedings;
+% Version 2.20 of 2017/10/04
+%
+\documentclass[runningheads]{llncs}
+%
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+% Used for displaying a sample figure. If possible, figure files should
+% be included in EPS format.
+%
+% If you use the hyperref package, please uncomment the following line
+% to display URLs in blue roman font according to Springer's eBook style:
+% \renewcommand\UrlFont{\color{blue}\rmfamily}
+
+\begin{document}
+%
+\title{Where's the Reward? A Review of Reinforcement Learning for Instructional Sequencing}
+%
+%\titlerunning{Abbreviated paper title}
+% If the paper title is too long for the running head, you can set
+% an abbreviated paper title here
+%
+\author{Shayan Doroudi}
+%
+\authorrunning{S. Doroudi}
+% First names are abbreviated in the running head.
+% If there are more than two authors, 'et al.' is used.
+%
+\institute{Computer Science Department\\
+Carnegie Mellon University, Pittsburgh, PA, USA\\
+\email{shayand@cs.cmu.edu}\\
+\url{http://www.cs.cmu.edu/~shayand/}}
+%
+\maketitle              % typeset the header of the contribution
+%
+\begin{abstract}
+Since the 1960s, researchers have been trying to optimize the sequencing of instructional activities using the tools of reinforcement learning (RL) and sequential decision making under uncertainty. Many researchers have realized that reinforcement learning provides a natural framework for optimizing and personalizing instruction given a particular model of student learning, and excitement towards this area of research is as alive now as it was over fifty years ago. But does it actually help students learn? If so, when and where might we expect it to be most helpful? To help answer these questions, I will take three approaches. First, I will present a historical narrative of attempts to optimize instructional sequencing using RL. By looking to the past, we hope to better understand why researchers from different communities have worked on this problem and discover some trends that might tell us where the field is going. Second, I will present a case study of two experiments that we ran in a fractions intelligent tutoring system that showed no significant differences between various instructional policies. Finally, I will systematically review the empirical research in this area.  We find that in many cases where RL has been applied to rich domains and environments, such as our intelligent tutoring system, it has not been very successful. However, I will show that it has been successful in settings that are constrained in one or more ways. Based on insights we draw from these three approaches, I make suggestions for how the field should proceed if we want to make the most out of reinforcement learning and if we want to quickly identify how rewarding this line of research might be. In particular, I suggest that data-driven RL approaches be informed by and constrained with ideas and theories from the learning sciences and that researchers perform more robust evaluations of instructional policies derived using reinforcement learning before testing them on students. I present on work conducted with Emma Brunskill and Vincent Aleven.
+
+\keywords{Reinforcement learning \and Sequential decision making \and Student learning.}
+\end{abstract}
+%
+%
+%
+\end{document}
